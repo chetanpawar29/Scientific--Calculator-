@@ -1,0 +1,92 @@
+.container{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #424242;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: #ABABAB;
+    padding: 25px;
+    border-radius: 20px;
+    border-top:2px solid #FFF;
+    border-right:2px solid #FFF;
+    border-left:2px solid #C1C1C1;
+    border-bottom:2px solid #C1C1C1;
+    box-shadow: 4px 8px 16px black;
+    
+}
+.calculator div input{
+    background-color: #FFF;
+    color: black;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 4px 4px;
+    border-top:2px solid #C1C1C1;
+    border-right:2px solid #C1C1C1;
+    border-left:2px solid #FFF;
+    border-bottom:2px solid #FFF;
+    box-shadow: 0px 0px 10px #030303, inset 0px -15px 0.5px rgba(100, 100, 100, .3);
+    
+}
+.container .equal{
+    width: 50px;
+}
+#display{
+    width: 220px;
+    box-shadow: 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+    height: 50px;
+    width: 290px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    border-top:2px solid #C1C1C1;
+    border-right:2px solid #C1C1C1;
+    border-left:2px solid #FFF;
+    border-bottom:2px solid #FFF;
+    text-align: right;
+    font-weight: 400px;
+    color: #000;
+}
+#ac{
+    background-color: rgb(219, 62, 62);
+}
+#de{
+    background-color: #fdfd69;
+}
+#operator{
+    background-color: #3d3d3d;
+    color: #FFF;
+}
+.calculator div input:hover{
+    background-color: rgb(245, 123, 24);
+    font-weight: 700;
+    border: 2px solid black;
+}
+#operator:hover{
+    background-color: rgb(245, 123, 24);
+    font-weight: 700;
+    border: 2px solid black; 
+}
+#display:hover{
+    background-color: white;
+}
+#ac:hover{
+    background-color: rgb(245, 123, 24);
+    font-weight: 700;
+    border: 2px solid black; 
+}
+#de:hover{
+    background-color: rgb(245, 123, 24);
+    font-weight: 700;
+    border: 2px solid black; 
+}
+
